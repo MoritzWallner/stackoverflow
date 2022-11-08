@@ -1,0 +1,1371 @@
+Running 'gradlew :app:bundleRelease' in /home/expo/workingdir/build/juhuuApp/android
+Downloading https://services.gradle.org/distributions/gradle-6.9-all.zip
+Unzipping /home/expo/.gradle/wrapper/dists/gradle-6.9-all/dooywd8nv05k16orzxge2b1bs/gradle-6.9-all.zip to /home/expo/.gradle/wrapper/dists/gradle-6.9-all/dooywd8nv05k16orzxge2b1bs
+Set executable permissions for: /home/expo/.gradle/wrapper/dists/gradle-6.9-all/dooywd8nv05k16orzxge2b1bs/gradle-6.9/bin/gradle
+Welcome to Gradle 6.9!
+Here are the highlights of this release:
+- This is a small backport release.
+ - Java 16 can be used to compile when used with Java toolchains
+ - Dynamic versions can be used within plugin declarations
+ - Native support for Apple Silicon processors
+For more details see https://docs.gradle.org/6.9/release-notes.html
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/6.9/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build
+[stderr] ⚠️  Cannot resolve the path to "@koale/useworker" package.
+[stderr] ⚠️  Cannot resolve the path to "react-redux" package.
+[stderr] (node:2893) [DEP0148] DeprecationWarning: Use of deprecated folder mapping "./" in the "exports" field module resolution of the package at /home/expo/workingdir/build/juhuuApp/node_modules/tslib/package.json.
+[stderr] Update this package.json to use a subpath pattern like "./*".
+[stderr] (Use `node --trace-deprecation ...` to show where the warning was created)
+> Configure project :expo-structured-headers
+Warning: The 'kotlin-android-extensions' Gradle plugin is deprecated. Please use this migration guide (https://goo.gle/kotlin-android-extensions-deprecation) to start working with View Binding (https://developer.android.com/topic/libraries/view-binding) and the 'kotlin-parcelize' plugin.
+> Configure project :expo
+Using expo modules
+  - expo-application (4.0.1)
+  - expo-barcode-scanner (11.2.1)
+  - expo-camera (12.1.2)
+  - expo-constants (13.0.0)
+  - expo-file-system (13.1.0)
+  - expo-font (10.0.4)
+  - expo-haptics (11.1.1)
+  - expo-image-loader (3.1.1)
+  - expo-json-utils (0.2.0)
+  - expo-keep-awake (10.0.1)
+  - expo-location (14.0.2)
+  - expo-manifests (0.2.2)
+  - expo-modules-core (0.6.4)
+  - expo-splash-screen (0.14.1)
+  - expo-structured-headers (2.1.0)
+  - expo-task-manager (10.1.0)
+  - expo-updates (0.11.7)
+  - expo-web-browser (10.1.0)
+  - unimodules-app-loader (3.0.0)
+[stderr] Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
+[stderr] Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
+[stderr] Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
+[stderr] Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
+[stderr] Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
+[stderr] Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
+[stderr] Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
+[stderr] Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
+[stderr] Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
+[stderr] Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
+> Task :expo-barcode-scanner:preBuild UP-TO-DATE
+> Task :expo-application:preBuild UP-TO-DATE
+> Task :expo-barcode-scanner:preReleaseBuild UP-TO-DATE
+> Task :expo-application:preReleaseBuild
+UP-TO-DATE
+> Task :expo-application:mergeReleaseShaders
+> Task :expo-application:compileReleaseShaders NO-SOURCE
+> Task :expo-application:generateReleaseAssets UP-TO-DATE
+> Task :expo-application:packageReleaseAssets
+> Task :expo-camera:preBuild UP-TO-DATE
+> Task :expo-camera:preReleaseBuild UP-TO-DATE
+> Task :expo-camera:mergeReleaseShaders
+> Task :expo-camera:compileReleaseShaders NO-SOURCE
+> Task :expo-camera:generateReleaseAssets UP-TO-DATE
+> Task :expo-camera:packageReleaseAssets
+> Task :expo-constants:preBuild UP-TO-DATE
+> Task :expo-constants:preReleaseBuild UP-TO-DATE
+> Task :expo-constants:mergeReleaseShaders
+> Task :expo-constants:compileReleaseShaders NO-SOURCE
+> Task :expo-constants:createReleaseExpoConfig
+> Task :expo-constants:copyReleaseExpoConfig
+> Task :expo-constants:generateReleaseAssets UP-TO-DATE
+[stderr] ⚠️  Cannot resolve the path to "@koale/useworker" package.
+[stderr] ⚠️  Cannot resolve the path to "react-redux" package.
+[stderr] (node:3593) [DEP0148] DeprecationWarning: Use of deprecated folder mapping "./" in the "exports" field module resolution of the package at /home/expo/workingdir/build/juhuuApp/node_modules/tslib/package.json.
+[stderr] Update this package.json to use a subpath pattern like "./*".
+[stderr] (Use `node --trace-deprecation ...` to show where the warning was created)
+> Task :expo:generateExpoModulesPackageList
+> Task :expo:preBuild
+> Task :expo:preReleaseBuild
+> Task :expo:mergeReleaseShaders
+> Task :expo:compileReleaseShaders NO-SOURCE
+> Task :expo:generateReleaseAssets UP-TO-DATE
+> Task :expo-barcode-scanner:mergeReleaseShaders
+> Task :expo:packageReleaseAssets
+> Task :expo-file-system:preBuild UP-TO-DATE
+> Task :expo-file-system:preReleaseBuild UP-TO-DATE
+> Task :expo-barcode-scanner:compileReleaseShaders NO-SOURCE
+> Task :expo-barcode-scanner:generateReleaseAssets UP-TO-DATE
+> Task :expo-barcode-scanner:packageReleaseAssets
+> Task :expo-font:preBuild UP-TO-DATE
+> Task :expo-font:preReleaseBuild UP-TO-DATE
+> Task :expo-file-system:mergeReleaseShaders
+> Task :expo-file-system:compileReleaseShaders NO-SOURCE
+> Task :expo-file-system:generateReleaseAssets UP-TO-DATE
+> Task :expo-font:mergeReleaseShaders
+> Task :expo-file-system:packageReleaseAssets
+> Task :expo-font:compileReleaseShaders NO-SOURCE
+> Task :expo-font:generateReleaseAssets UP-TO-DATE
+> Task :expo-haptics:preBuild UP-TO-DATE
+> Task :expo-haptics:preReleaseBuild UP-TO-DATE
+> Task :expo-font:packageReleaseAssets
+> Task :expo-haptics:mergeReleaseShaders
+> Task :expo-image-loader:preBuild UP-TO-DATE
+> Task :expo-image-loader:preReleaseBuild UP-TO-DATE
+> Task :expo-haptics:compileReleaseShaders NO-SOURCE
+> Task :expo-haptics:generateReleaseAssets UP-TO-DATE
+> Task :expo-image-loader:mergeReleaseShaders
+> Task :expo-image-loader:compileReleaseShaders NO-SOURCE
+> Task :expo-image-loader:generateReleaseAssets UP-TO-DATE
+> Task :expo-constants:packageReleaseAssets
+> Task :expo-image-loader:packageReleaseAssets
+> Task :expo-json-utils:preBuild UP-TO-DATE
+> Task :expo-keep-awake:preBuild UP-TO-DATE
+> Task :expo-json-utils:preReleaseBuild UP-TO-DATE
+> Task :expo-keep-awake:preReleaseBuild UP-TO-DATE
+> Task :expo-haptics:packageReleaseAssets
+> Task :expo-location:preBuild UP-TO-DATE
+> Task :expo-location:preReleaseBuild UP-TO-DATE
+> Task :expo-json-utils:mergeReleaseShaders
+> Task :expo-keep-awake:mergeReleaseShaders
+> Task :expo-json-utils:compileReleaseShaders NO-SOURCE
+> Task :expo-json-utils:generateReleaseAssets UP-TO-DATE
+> Task :expo-keep-awake:compileReleaseShaders NO-SOURCE
+> Task :expo-keep-awake:generateReleaseAssets UP-TO-DATE
+> Task :expo-json-utils:packageReleaseAssets
+> Task :expo-manifests:preBuild UP-TO-DATE
+> Task :expo-manifests:preReleaseBuild UP-TO-DATE
+> Task :expo-location:mergeReleaseShaders
+> Task :expo-keep-awake:packageReleaseAssets
+> Task :expo-location:compileReleaseShaders NO-SOURCE
+> Task :expo-location:generateReleaseAssets UP-TO-DATE
+> Task :expo-modules-core:preBuild UP-TO-DATE
+> Task :expo-modules-core:preReleaseBuild UP-TO-DATE
+> Task :expo-manifests:mergeReleaseShaders
+> Task :expo-location:packageReleaseAssets
+> Task :expo-manifests:compileReleaseShaders NO-SOURCE
+> Task :expo-manifests:generateReleaseAssets UP-TO-DATE
+> Task :expo-modules-core:mergeReleaseShaders
+> Task :expo-splash-screen:preBuild UP-TO-DATE
+> Task :expo-splash-screen:preReleaseBuild UP-TO-DATE
+> Task :expo-modules-core:compileReleaseShaders NO-SOURCE
+> Task :expo-modules-core:generateReleaseAssets UP-TO-DATE
+> Task :expo-modules-core:packageReleaseAssets
+> Task :expo-structured-headers:preBuild UP-TO-DATE
+> Task :expo-structured-headers:preReleaseBuild UP-TO-DATE
+> Task :expo-splash-screen:mergeReleaseShaders
+> Task :expo-splash-screen:compileReleaseShaders NO-SOURCE
+> Task :expo-splash-screen:generateReleaseAssets UP-TO-DATE
+> Task :expo-manifests:packageReleaseAssets
+> Task :expo-splash-screen:packageReleaseAssets
+> Task :expo-structured-headers:mergeReleaseShaders
+> Task :expo-updates:preBuild UP-TO-DATE
+> Task :expo-updates:preReleaseBuild UP-TO-DATE
+> Task :expo-task-manager:preBuild UP-TO-DATE
+> Task :expo-task-manager:preReleaseBuild UP-TO-DATE
+> Task :expo-structured-headers:compileReleaseShaders NO-SOURCE
+> Task :expo-structured-headers:generateReleaseAssets UP-TO-DATE
+> Task :expo-updates:mergeReleaseShaders
+> Task :expo-updates:compileReleaseShaders NO-SOURCE
+> Task :expo-updates:generateReleaseAssets UP-TO-DATE
+> Task :expo-structured-headers:packageReleaseAssets
+> Task :expo-updates-interface:preBuild UP-TO-DATE
+> Task :expo-updates-interface:preReleaseBuild UP-TO-DATE
+> Task :expo-task-manager:mergeReleaseShaders
+> Task :expo-updates:packageReleaseAssets
+> Task :expo-task-manager:compileReleaseShaders NO-SOURCE
+> Task :expo-task-manager:generateReleaseAssets UP-TO-DATE
+> Task :expo-web-browser:preBuild UP-TO-DATE
+> Task :expo-web-browser:preReleaseBuild UP-TO-DATE
+> Task :expo-web-browser:mergeReleaseShaders
+> Task :expo-web-browser:compileReleaseShaders NO-SOURCE
+> Task :expo-web-browser:generateReleaseAssets UP-TO-DATE
+> Task :expo-updates-interface:mergeReleaseShaders
+> Task :expo-updates-interface:compileReleaseShaders NO-SOURCE
+> Task :expo-task-manager:packageReleaseAssets
+> Task :expo-updates-interface:generateReleaseAssets UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preReleaseBuild UP-TO-DATE
+> Task :expo-web-browser:packageReleaseAssets
+> Task :expo-updates-interface:packageReleaseAssets
+> Task :react-native-clipboard_clipboard:preBuild UP-TO-DATE
+> Task :react-native-clipboard_clipboard:preReleaseBuild UP-TO-DATE
+> Task :react-native-community_datetimepicker:preBuild UP-TO-DATE
+> Task :react-native-community_datetimepicker:preReleaseBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseShaders
+> Task :react-native-async-storage_async-storage:compileReleaseShaders NO-SOURCE
+> Task :react-native-async-storage_async-storage:generateReleaseAssets UP-TO-DATE
+> Task :react-native-clipboard_clipboard:mergeReleaseShaders
+> Task :react-native-clipboard_clipboard:compileReleaseShaders NO-SOURCE
+> Task :react-native-clipboard_clipboard:generateReleaseAssets UP-TO-DATE
+> Task :react-native-community_datetimepicker:mergeReleaseShaders
+> Task :react-native-async-storage_async-storage:packageReleaseAssets
+> Task :react-native-community_datetimepicker:compileReleaseShaders NO-SOURCE
+> Task :react-native-community_datetimepicker:generateReleaseAssets UP-TO-DATE
+> Task :react-native-community_netinfo:preBuild UP-TO-DATE
+> Task :react-native-community_netinfo:preReleaseBuild UP-TO-DATE
+> Task :react-native-clipboard_clipboard:packageReleaseAssets
+> Task :react-native-community_slider:preBuild UP-TO-DATE
+> Task :react-native-community_slider:preReleaseBuild UP-TO-DATE
+> Task :react-native-community_datetimepicker:packageReleaseAssets
+> Task :react-native-gesture-handler:preBuild UP-TO-DATE
+> Task :react-native-gesture-handler:preReleaseBuild UP-TO-DATE
+> Task :react-native-gesture-handler:mergeReleaseShaders
+> Task :react-native-community_netinfo:mergeReleaseShaders
+> Task :react-native-community_slider:mergeReleaseShaders
+> Task :react-native-community_netinfo:compileReleaseShaders NO-SOURCE
+> Task :react-native-gesture-handler:compileReleaseShaders NO-SOURCE
+> Task :react-native-community_netinfo:generateReleaseAssets UP-TO-DATE
+> Task :react-native-gesture-handler:generateReleaseAssets UP-TO-DATE
+> Task :react-native-community_slider:compileReleaseShaders NO-SOURCE
+> Task :react-native-community_slider:generateReleaseAssets UP-TO-DATE
+> Task :react-native-community_netinfo:packageReleaseAssets
+> Task :react-native-maps:preBuild UP-TO-DATE
+> Task :react-native-maps:preReleaseBuild UP-TO-DATE
+> Task :react-native-community_slider:packageReleaseAssets
+> Task :react-native-safe-area-context:preBuild UP-TO-DATE
+> Task :react-native-safe-area-context:preReleaseBuild UP-TO-DATE
+> Task :react-native-gesture-handler:packageReleaseAssets
+> Task :react-native-screens:preBuild UP-TO-DATE
+> Task :react-native-screens:preReleaseBuild UP-TO-DATE
+> Task :react-native-maps:mergeReleaseShaders
+> Task :react-native-maps:compileReleaseShaders NO-SOURCE
+> Task :react-native-maps:generateReleaseAssets UP-TO-DATE
+> Task :react-native-screens:mergeReleaseShaders
+> Task :react-native-safe-area-context:mergeReleaseShaders
+> Task :react-native-screens:compileReleaseShaders NO-SOURCE
+> Task :react-native-screens:generateReleaseAssets UP-TO-DATE
+> Task :react-native-safe-area-context:compileReleaseShaders NO-SOURCE
+> Task :react-native-screens:packageReleaseAssets
+> Task :react-native-safe-area-context:generateReleaseAssets UP-TO-DATE
+> Task :stripe_stripe-react-native:preBuild UP-TO-DATE
+> Task :stripe_stripe-react-native:preReleaseBuild UP-TO-DATE
+> Task :react-native-maps:packageReleaseAssets
+> Task :unimodules-app-loader:preBuild UP-TO-DATE
+> Task :unimodules-app-loader:preReleaseBuild UP-TO-DATE
+> Task :react-native-safe-area-context:packageReleaseAssets
+> Task :unimodules-task-manager-interface:preBuild UP-TO-DATE
+> Task :unimodules-task-manager-interface:preReleaseBuild UP-TO-DATE
+> Task :unimodules-task-manager-interface:mergeReleaseShaders
+> Task :unimodules-task-manager-interface:compileReleaseShaders NO-SOURCE
+> Task :unimodules-task-manager-interface:generateReleaseAssets UP-TO-DATE
+> Task :unimodules-app-loader:mergeReleaseShaders
+> Task :stripe_stripe-react-native:mergeReleaseShaders
+> Task :unimodules-app-loader:compileReleaseShaders NO-SOURCE
+> Task :unimodules-app-loader:generateReleaseAssets UP-TO-DATE
+> Task :stripe_stripe-react-native:compileReleaseShaders NO-SOURCE
+> Task :stripe_stripe-react-native:generateReleaseAssets UP-TO-DATE
+> Task :unimodules-task-manager-interface:packageReleaseAssets
+> Task :unimodules-app-loader:packageReleaseAssets
+> Task :stripe_stripe-react-native:packageReleaseAssets
+> Task :expo:packageReleaseRenderscript NO-SOURCE
+> Task :expo-application:packageReleaseRenderscript NO-SOURCE
+> Task :expo-camera:packageReleaseRenderscript NO-SOURCE
+> Task :expo-barcode-scanner:packageReleaseRenderscript NO-SOURCE
+> Task :expo-constants:packageReleaseRenderscript NO-SOURCE
+> Task :expo-file-system:packageReleaseRenderscript NO-SOURCE
+> Task :expo-font:packageReleaseRenderscript NO-SOURCE
+> Task :expo-image-loader:packageReleaseRenderscript NO-SOURCE
+> Task :expo-json-utils:packageReleaseRenderscript NO-SOURCE
+> Task :expo-haptics:packageReleaseRenderscript NO-SOURCE
+> Task :expo-keep-awake:packageReleaseRenderscript NO-SOURCE
+> Task :expo-location:packageReleaseRenderscript NO-SOURCE
+> Task :expo-manifests:packageReleaseRenderscript NO-SOURCE
+> Task :expo-modules-core:packageReleaseRenderscript NO-SOURCE
+> Task :expo-structured-headers:packageReleaseRenderscript NO-SOURCE
+> Task :expo-task-manager:packageReleaseRenderscript NO-SOURCE
+> Task :expo-updates:packageReleaseRenderscript NO-SOURCE
+> Task :expo-updates-interface:packageReleaseRenderscript NO-SOURCE
+> Task :expo-web-browser:packageReleaseRenderscript NO-SOURCE
+> Task :expo-splash-screen:packageReleaseRenderscript NO-SOURCE
+> Task :react-native-async-storage_async-storage:packageReleaseRenderscript NO-SOURCE
+> Task :react-native-clipboard_clipboard:packageReleaseRenderscript NO-SOURCE
+> Task :react-native-community_netinfo:packageReleaseRenderscript NO-SOURCE
+> Task :react-native-community_slider:packageReleaseRenderscript NO-SOURCE
+> Task :react-native-gesture-handler:packageReleaseRenderscript NO-SOURCE
+> Task :react-native-maps:packageReleaseRenderscript NO-SOURCE
+> Task :react-native-screens:packageReleaseRenderscript NO-SOURCE
+> Task :react-native-safe-area-context:packageReleaseRenderscript NO-SOURCE
+> Task :react-native-community_datetimepicker:packageReleaseRenderscript NO-SOURCE
+> Task :unimodules-app-loader:packageReleaseRenderscript NO-SOURCE
+> Task :stripe_stripe-react-native:packageReleaseRenderscript NO-SOURCE
+> Task :expo-application:compileReleaseRenderscript NO-SOURCE
+> Task :unimodules-task-manager-interface:packageReleaseRenderscript NO-SOURCE
+> Task :expo-barcode-scanner:compileReleaseRenderscript NO-SOURCE
+> Task :expo-application:generateReleaseResValues
+> Task :expo-application:generateReleaseResources
+> Task :expo:generateReleaseResValues
+> Task :expo:compileReleaseRenderscript NO-SOURCE
+> Task :expo:generateReleaseResources
+> Task :expo-barcode-scanner:generateReleaseResValues
+> Task :expo-barcode-scanner:generateReleaseResources
+> Task :expo:packageReleaseResources
+> Task :expo-barcode-scanner:packageReleaseResources
+> Task :expo-camera:compileReleaseRenderscript NO-SOURCE
+> Task :expo-constants:compileReleaseRenderscript NO-SOURCE
+> Task :expo-camera:generateReleaseResValues
+> Task :expo-camera:generateReleaseResources
+> Task :expo-constants:generateReleaseResValues
+> Task :expo-constants:generateReleaseResources
+> Task :expo-application:packageReleaseResources
+> Task :expo-file-system:compileReleaseRenderscript NO-SOURCE
+> Task :expo-file-system:generateReleaseResValues
+> Task :expo-file-system:generateReleaseResources
+> Task :expo-constants:packageReleaseResources
+> Task :expo-camera:packageReleaseResources
+> Task :expo-font:compileReleaseRenderscript NO-SOURCE
+> Task :expo-font:generateReleaseResValues
+> Task :expo-font:generateReleaseResources
+> Task :expo-haptics:compileReleaseRenderscript NO-SOURCE
+> Task :expo-haptics:generateReleaseResValues
+> Task :expo-haptics:generateReleaseResources
+> Task :expo-font:packageReleaseResources
+> Task :expo-image-loader:compileReleaseRenderscript NO-SOURCE
+> Task :expo-haptics:packageReleaseResources
+> Task :expo-image-loader:generateReleaseResValues
+> Task :expo-image-loader:generateReleaseResources
+> Task :expo-json-utils:compileReleaseRenderscript NO-SOURCE
+> Task :expo-json-utils:generateReleaseResValues
+> Task :expo-json-utils:generateReleaseResources
+> Task :expo-image-loader:packageReleaseResources
+> Task :expo-keep-awake:compileReleaseRenderscript NO-SOURCE
+> Task :expo-keep-awake:generateReleaseResValues
+> Task :expo-keep-awake:generateReleaseResources
+> Task :expo-json-utils:packageReleaseResources
+> Task :expo-location:compileReleaseRenderscript NO-SOURCE
+> Task :expo-keep-awake:packageReleaseResources
+> Task :expo-location:generateReleaseResValues
+> Task :expo-location:generateReleaseResources
+> Task :expo-manifests:compileReleaseRenderscript NO-SOURCE
+> Task :expo-manifests:generateReleaseResValues
+> Task :expo-manifests:generateReleaseResources
+> Task :expo-location:packageReleaseResources
+> Task :expo-modules-core:compileReleaseRenderscript NO-SOURCE
+> Task :expo-modules-core:generateReleaseResValues
+> Task :expo-modules-core:generateReleaseResources
+> Task :expo-manifests:packageReleaseResources
+> Task :expo-modules-core:packageReleaseResources
+> Task :expo-file-system:packageReleaseResources
+> Task :expo-structured-headers:compileReleaseRenderscript NO-SOURCE
+> Task :expo-task-manager:compileReleaseRenderscript NO-SOURCE
+> Task :expo-structured-headers:generateReleaseResValues
+> Task :expo-task-manager:generateReleaseResValues
+> Task :expo-structured-headers:generateReleaseResources
+> Task :expo-task-manager:generateReleaseResources
+> Task :expo-splash-screen:compileReleaseRenderscript NO-SOURCE
+> Task :expo-splash-screen:generateReleaseResValues
+> Task :expo-splash-screen:generateReleaseResources
+> Task :expo-task-manager:packageReleaseResources
+> Task :expo-updates:compileReleaseRenderscript NO-SOURCE
+> Task :expo-updates:generateReleaseResValues
+> Task :expo-updates:generateReleaseResources
+> Task :expo-structured-headers:packageReleaseResources
+> Task :expo-updates-interface:compileReleaseRenderscript NO-SOURCE
+> Task :expo-updates-interface:generateReleaseResValues
+> Task :expo-updates-interface:generateReleaseResources
+> Task :expo-updates:packageReleaseResources
+> Task :expo-web-browser:compileReleaseRenderscript NO-SOURCE
+> Task :expo-web-browser:generateReleaseResValues
+> Task :expo-web-browser:generateReleaseResources
+> Task :expo-updates-interface:packageReleaseResources
+> Task :react-native-async-storage_async-storage:compileReleaseRenderscript NO-SOURCE
+> Task :react-native-async-storage_async-storage:generateReleaseResValues
+> Task :react-native-async-storage_async-storage:generateReleaseResources
+> Task :expo-splash-screen:packageReleaseResources
+> Task :expo-web-browser:packageReleaseResources
+> Task :react-native-clipboard_clipboard:compileReleaseRenderscript NO-SOURCE
+> Task :react-native-clipboard_clipboard:generateReleaseResValues
+> Task :react-native-async-storage_async-storage:packageReleaseResources
+> Task :react-native-clipboard_clipboard:generateReleaseResources
+> Task :react-native-community_datetimepicker:compileReleaseRenderscript NO-SOURCE
+> Task :react-native-community_netinfo:compileReleaseRenderscript NO-SOURCE
+> Task :react-native-community_datetimepicker:generateReleaseResValues
+> Task :react-native-community_datetimepicker:generateReleaseResources
+> Task :react-native-community_netinfo:generateReleaseResValues
+> Task :react-native-community_netinfo:generateReleaseResources
+> Task :react-native-clipboard_clipboard:packageReleaseResources
+> Task :react-native-community_slider:compileReleaseRenderscript NO-SOURCE
+> Task :react-native-community_slider:generateReleaseResValues
+> Task :react-native-community_slider:generateReleaseResources
+> Task :react-native-community_netinfo:packageReleaseResources
+> Task :react-native-gesture-handler:compileReleaseRenderscript NO-SOURCE
+> Task :react-native-gesture-handler:generateReleaseResValues
+> Task :react-native-gesture-handler:generateReleaseResources
+> Task :react-native-community_datetimepicker:packageReleaseResources
+> Task :react-native-maps:compileReleaseRenderscript NO-SOURCE
+> Task :react-native-maps:generateReleaseResValues
+> Task :react-native-maps:generateReleaseResources
+> Task :react-native-community_slider:packageReleaseResources
+> Task :react-native-safe-area-context:compileReleaseRenderscript NO-SOURCE
+> Task :react-native-safe-area-context:generateReleaseResValues
+> Task :react-native-safe-area-context:generateReleaseResources
+> Task :react-native-gesture-handler:packageReleaseResources
+> Task :react-native-screens:compileReleaseRenderscript NO-SOURCE
+> Task :react-native-maps:packageReleaseResources
+> Task :react-native-screens:generateReleaseResValues
+> Task :react-native-screens:generateReleaseResources
+> Task :stripe_stripe-react-native:compileReleaseRenderscript NO-SOURCE
+> Task :stripe_stripe-react-native:generateReleaseResValues
+> Task :stripe_stripe-react-native:generateReleaseResources
+> Task :react-native-safe-area-context:packageReleaseResources
+> Task :react-native-screens:packageReleaseResources
+> Task :unimodules-app-loader:compileReleaseRenderscript NO-SOURCE
+> Task :unimodules-app-loader:generateReleaseResValues
+> Task :unimodules-app-loader:generateReleaseResources
+> Task :unimodules-task-manager-interface:compileReleaseRenderscript NO-SOURCE
+> Task :unimodules-task-manager-interface:generateReleaseResValues
+> Task :unimodules-task-manager-interface:generateReleaseResources
+> Task :unimodules-app-loader:packageReleaseResources
+> Task :expo:extractDeepLinksRelease
+> Task :unimodules-task-manager-interface:packageReleaseResources
+> Task :expo-application:extractDeepLinksRelease
+> Task :expo:processReleaseManifest
+> Task :expo-application:processReleaseManifest
+> Task :expo-camera:extractDeepLinksRelease
+> Task :expo-barcode-scanner:extractDeepLinksRelease
+> Task :expo-barcode-scanner:processReleaseManifest
+> Task :expo-constants:extractDeepLinksRelease
+> Task :expo-camera:processReleaseManifest
+> Task :expo-file-system:extractDeepLinksRelease
+> Task :expo-constants:processReleaseManifest
+> Task :expo-font:extractDeepLinksRelease
+> Task :expo-file-system:processReleaseManifest
+/home/expo/workingdir/build/juhuuApp/node_modules/expo-file-system/android/src/main/AndroidManifest.xml:8:9-10:20 Warning:
+	provider#expo.modules.filesystem.FileSystemFileProvider@android:authorities was tagged at AndroidManifest.xml:8 to replace other declarations but no other declaration present
+> Task :expo-font:processReleaseManifest
+> Task :expo-image-loader:extractDeepLinksRelease
+> Task :expo-haptics:extractDeepLinksRelease
+> Task :expo-haptics:processReleaseManifest
+> Task :expo-image-loader:processReleaseManifest
+> Task :expo-keep-awake:extractDeepLinksRelease
+> Task :expo-json-utils:extractDeepLinksRelease
+> Task :expo-keep-awake:processReleaseManifest
+> Task :expo-json-utils:processReleaseManifest
+> Task :expo-location:extractDeepLinksRelease
+> Task :expo-manifests:extractDeepLinksRelease
+> Task :app:bundleReleaseJsAndAssets
+warning: the transform cache was reset.
+> Task :expo-location:processReleaseManifest
+> Task :expo-manifests:processReleaseManifest
+> Task :expo-modules-core:extractDeepLinksRelease
+> Task :expo-splash-screen:extractDeepLinksRelease
+> Task :expo-modules-core:processReleaseManifest
+> Task :expo-structured-headers:extractDeepLinksRelease
+> Task :expo-splash-screen:processReleaseManifest
+> Task :expo-structured-headers:processReleaseManifest
+> Task :expo-task-manager:extractDeepLinksRelease
+> Task :expo-updates:extractDeepLinksRelease
+> Task :expo-task-manager:processReleaseManifest
+> Task :expo-updates:processReleaseManifest
+> Task :expo-web-browser:extractDeepLinksRelease
+> Task :expo-updates-interface:extractDeepLinksRelease
+> Task :expo-web-browser:processReleaseManifest
+> Task :stripe_stripe-react-native:packageReleaseResources
+> Task :react-native-clipboard_clipboard:extractDeepLinksRelease
+> Task :expo-updates-interface:processReleaseManifest
+> Task :react-native-community_datetimepicker:extractDeepLinksRelease
+> Task :react-native-async-storage_async-storage:extractDeepLinksRelease
+> Task :react-native-clipboard_clipboard:processReleaseManifest
+> Task :react-native-community_netinfo:extractDeepLinksRelease
+> Task :react-native-community_datetimepicker:processReleaseManifest
+> Task :react-native-async-storage_async-storage:processReleaseManifest
+> Task :react-native-community_slider:extractDeepLinksRelease
+> Task :react-native-community_netinfo:processReleaseManifest
+> Task :react-native-gesture-handler:extractDeepLinksRelease
+> Task :react-native-maps:extractDeepLinksRelease
+> Task :react-native-community_slider:processReleaseManifest
+> Task :react-native-maps:processReleaseManifest
+> Task :react-native-screens:extractDeepLinksRelease
+> Task :react-native-gesture-handler:processReleaseManifest
+> Task :react-native-safe-area-context:extractDeepLinksRelease
+> Task :stripe_stripe-react-native:extractDeepLinksRelease
+> Task :react-native-screens:processReleaseManifest
+> Task :unimodules-app-loader:extractDeepLinksRelease
+> Task :react-native-safe-area-context:processReleaseManifest
+> Task :unimodules-task-manager-interface:extractDeepLinksRelease
+> Task :stripe_stripe-react-native:processReleaseManifest
+> Task :unimodules-app-loader:processReleaseManifest
+> Task :unimodules-task-manager-interface:processReleaseManifest
+> Task :expo-barcode-scanner:compileReleaseLibraryResources
+> Task :expo:compileReleaseLibraryResources
+> Task :expo-application:compileReleaseLibraryResources
+> Task :expo-constants:compileReleaseLibraryResources
+> Task :expo-camera:compileReleaseLibraryResources
+> Task :expo-haptics:compileReleaseLibraryResources
+> Task :expo-font:compileReleaseLibraryResources
+> Task :expo-image-loader:compileReleaseLibraryResources
+> Task :expo-json-utils:compileReleaseLibraryResources
+> Task :expo-keep-awake:compileReleaseLibraryResources
+> Task :expo-location:compileReleaseLibraryResources
+> Task :expo-manifests:compileReleaseLibraryResources
+> Task :expo-file-system:compileReleaseLibraryResources
+> Task :expo-modules-core:compileReleaseLibraryResources
+> Task :expo-structured-headers:compileReleaseLibraryResources
+> Task :expo-updates:compileReleaseLibraryResources
+> Task :expo-task-manager:compileReleaseLibraryResources
+> Task :expo-updates-interface:compileReleaseLibraryResources
+> Task :expo-web-browser:compileReleaseLibraryResources
+> Task :react-native-async-storage_async-storage:compileReleaseLibraryResources
+> Task :react-native-clipboard_clipboard:compileReleaseLibraryResources
+> Task :react-native-community_datetimepicker:compileReleaseLibraryResources
+> Task :expo-splash-screen:compileReleaseLibraryResources
+> Task :react-native-community_netinfo:compileReleaseLibraryResources
+> Task :react-native-gesture-handler:compileReleaseLibraryResources
+> Task :react-native-community_slider:compileReleaseLibraryResources
+> Task :react-native-safe-area-context:compileReleaseLibraryResources
+> Task :react-native-maps:compileReleaseLibraryResources
+> Task :unimodules-app-loader:compileReleaseLibraryResources
+> Task :unimodules-task-manager-interface:compileReleaseLibraryResources
+> Task :react-native-async-storage_async-storage:compileReleaseAidl NO-SOURCE
+> Task :react-native-screens:compileReleaseLibraryResources
+> Task :react-native-clipboard_clipboard:compileReleaseAidl NO-SOURCE
+> Task :react-native-clipboard_clipboard:generateReleaseBuildConfig
+> Task :react-native-async-storage_async-storage:generateReleaseBuildConfig
+> Task :stripe_stripe-react-native:compileReleaseLibraryResources
+> Task :react-native-community_datetimepicker:compileReleaseAidl NO-SOURCE
+> Task :react-native-community_datetimepicker:generateReleaseBuildConfig
+> Task :react-native-clipboard_clipboard:parseReleaseLocalResources
+> Task :react-native-async-storage_async-storage:parseReleaseLocalResources
+> Task :react-native-async-storage_async-storage:javaPreCompileRelease
+> Task :react-native-community_datetimepicker:parseReleaseLocalResources
+> Task :app:bundleReleaseJsAndAssets
+Welcome to Metro!
+              Fast - Scalable - Integrated
+transform[stderr]: Browserslist: caniuse-lite is outdated. Please run:
+transform[stderr]:   npx browserslist@latest --update-db
+transform[stderr]:   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+transform[stderr]: Browserslist: caniuse-lite is outdated. Please run:
+transform[stderr]:   npx browserslist@latest --update-db
+transform[stderr]:   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+transform[stderr]: Browserslist: caniuse-lite is outdated. Please run:
+transform[stderr]:   npx browserslist@latest --update-db
+transform[stderr]:   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+> Task :react-native-clipboard_clipboard:generateReleaseRFile
+> Task :react-native-community_datetimepicker:generateReleaseRFile
+> Task :react-native-async-storage_async-storage:generateReleaseRFile
+> Task :react-native-community_datetimepicker:javaPreCompileRelease
+> Task :react-native-clipboard_clipboard:javaPreCompileRelease
+> Task :react-native-clipboard_clipboard:compileReleaseJavaWithJavac
+[stderr] Note: /home/expo/workingdir/build/juhuuApp/node_modules/@react-native-clipboard/clipboard/android/src/main/java/com/reactnativecommunity/clipboard/ClipboardModule.java uses or overrides a deprecated API.
+[stderr] Note: Recompile with -Xlint:deprecation for details.
+> Task :react-native-community_datetimepicker:compileReleaseJavaWithJavac
+> Task :react-native-async-storage_async-storage:compileReleaseJavaWithJavac
+> Task :react-native-async-storage_async-storage:bundleLibRuntimeToJarRelease
+> Task :react-native-community_netinfo:compileReleaseAidl NO-SOURCE
+> Task :react-native-community_netinfo:generateReleaseBuildConfig
+> Task :react-native-community_datetimepicker:bundleLibRuntimeToJarRelease
+> Task :react-native-clipboard_clipboard:bundleLibRuntimeToJarRelease
+> Task :react-native-community_slider:compileReleaseAidl NO-SOURCE
+> Task :stripe_stripe-react-native:compileReleaseAidl NO-SOURCE
+[stderr] Note: Some input files use or override a deprecated API.
+[stderr] Note: Recompile with -Xlint:deprecation for details.
+[stderr] Note: /home/expo/workingdir/build/juhuuApp/node_modules/@react-native-async-storage/async-storage/android/src/main/java/com/reactnativecommunity/asyncstorage/AsyncStorageModule.java uses or overrides a deprecated API.
+[stderr] Note: Recompile with -Xlint:deprecation for details.
+[stderr] Note: /home/expo/workingdir/build/juhuuApp/node_modules/@react-native-async-storage/async-storage/android/src/main/java/com/reactnativecommunity/asyncstorage/AsyncStoragePackage.java uses unchecked or unsafe operations.
+[stderr] Note: Recompile with -Xlint:unchecked for details.
+> Task :react-native-community_slider:generateReleaseBuildConfig
+> Task :react-native-community_netinfo:parseReleaseLocalResources
+> Task :react-native-community_slider:parseReleaseLocalResources
+> Task :react-native-community_netinfo:generateReleaseRFile
+> Task :react-native-community_netinfo:javaPreCompileRelease
+> Task :react-native-community_slider:generateReleaseRFile
+> Task :react-native-community_slider:javaPreCompileRelease
+> Task :react-native-community_slider:compileReleaseJavaWithJavac
+> Task :react-native-community_slider:bundleLibRuntimeToJarRelease
+> Task :react-native-community_netinfo:compileReleaseJavaWithJavac
+> Task :expo-modules-core:compileReleaseAidl NO-SOURCE
+> Task :expo-application:compileReleaseAidl NO-SOURCE
+[stderr] Note: /home/expo/workingdir/build/juhuuApp/node_modules/@react-native-community/slider/android/src/main/java/com/reactnativecommunity/slider/ReactSliderManager.java uses or overrides a deprecated API.
+[stderr] Note: Recompile with -Xlint:deprecation for details.
+[stderr] Note: /home/expo/workingdir/build/juhuuApp/node_modules/@react-native-community/slider/android/src/main/java/com/reactnativecommunity/slider/ReactSliderManager.java uses unchecked or unsafe operations.
+[stderr] Note: Recompile with -Xlint:unchecked for details.
+[stderr] Note: Some input files use or override a deprecated API.
+[stderr] Note: Recompile with -Xlint:deprecation for details.
+> Task :expo-application:generateReleaseBuildConfig
+> Task :react-native-community_netinfo:bundleLibRuntimeToJarRelease
+> Task :expo-application:parseReleaseLocalResources
+> Task :expo-application:javaPreCompileRelease
+> Task :expo-modules-core:generateReleaseBuildConfig
+> Task :expo-modules-core:parseReleaseLocalResources
+> Task :expo-barcode-scanner:compileReleaseAidl NO-SOURCE
+> Task :expo-barcode-scanner:generateReleaseBuildConfig
+> Task :expo-modules-core:javaPreCompileRelease
+> Task :expo-barcode-scanner:parseReleaseLocalResources
+> Task :expo-barcode-scanner:javaPreCompileRelease
+> Task :expo-camera:compileReleaseAidl NO-SOURCE
+> Task :expo-camera:generateReleaseBuildConfig
+> Task :expo-camera:parseReleaseLocalResources
+> Task :expo-camera:javaPreCompileRelease
+> Task :expo-constants:compileReleaseAidl NO-SOURCE
+> Task :expo-constants:generateReleaseBuildConfig
+> Task :expo-constants:parseReleaseLocalResources
+> Task :expo-constants:javaPreCompileRelease
+> Task :expo-file-system:compileReleaseAidl NO-SOURCE
+> Task :expo-file-system:generateReleaseBuildConfig
+> Task :expo-file-system:parseReleaseLocalResources
+> Task :expo-file-system:javaPreCompileRelease
+> Task :expo-font:compileReleaseAidl NO-SOURCE
+> Task :expo-font:generateReleaseBuildConfig
+> Task :expo-font:parseReleaseLocalResources
+> Task :expo-font:javaPreCompileRelease
+> Task :expo-haptics:compileReleaseAidl NO-SOURCE
+> Task :expo-haptics:generateReleaseBuildConfig
+> Task :expo-haptics:parseReleaseLocalResources
+> Task :expo-haptics:javaPreCompileRelease
+> Task :expo-image-loader:compileReleaseAidl NO-SOURCE
+> Task :expo-image-loader:generateReleaseBuildConfig
+> Task :expo-image-loader:parseReleaseLocalResources
+> Task :expo-image-loader:javaPreCompileRelease
+> Task :expo-json-utils:compileReleaseAidl NO-SOURCE
+> Task :expo-json-utils:generateReleaseBuildConfig
+> Task :expo-json-utils:parseReleaseLocalResources
+> Task :expo-modules-core:generateReleaseRFile
+> Task :expo-json-utils:generateReleaseRFile
+> Task :expo-application:generateReleaseRFile
+> Task :expo-barcode-scanner:generateReleaseRFile
+> Task :expo-camera:generateReleaseRFile
+> Task :expo-constants:generateReleaseRFile
+> Task :expo-file-system:generateReleaseRFile
+> Task :expo-font:generateReleaseRFile
+> Task :expo-haptics:generateReleaseRFile
+> Task :expo-image-loader:generateReleaseRFile
+> Task :stripe_stripe-react-native:dataBindingMergeDependencyArtifactsRelease
+> Task :stripe_stripe-react-native:dataBindingMergeGenClassesRelease
+> Task :stripe_stripe-react-native:dataBindingGenBaseClassesRelease
+> Task :stripe_stripe-react-native:generateReleaseBuildConfig
+> Task :stripe_stripe-react-native:parseReleaseLocalResources
+> Task :stripe_stripe-react-native:generateReleaseRFile
+> Task :expo-json-utils:compileReleaseKotlin
+> Task :expo-json-utils:javaPreCompileRelease
+> Task :expo-json-utils:compileReleaseJavaWithJavac
+> Task :expo-json-utils:bundleLibRuntimeToJarRelease
+> Task :expo-keep-awake:compileReleaseAidl NO-SOURCE
+> Task :expo-keep-awake:generateReleaseBuildConfig
+> Task :expo-keep-awake:parseReleaseLocalResources
+> Task :expo-keep-awake:generateReleaseRFile
+> Task :expo-keep-awake:javaPreCompileRelease
+> Task :unimodules-task-manager-interface:compileReleaseAidl NO-SOURCE
+> Task :expo-location:compileReleaseAidl NO-SOURCE
+> Task :expo-location:generateReleaseBuildConfig
+> Task :expo-location:parseReleaseLocalResources
+> Task :unimodules-task-manager-interface:parseReleaseLocalResources
+> Task :unimodules-task-manager-interface:generateReleaseRFile
+> Task :expo-location:generateReleaseRFile
+> Task :unimodules-task-manager-interface:generateReleaseBuildConfig
+> Task :unimodules-task-manager-interface:javaPreCompileRelease
+> Task :expo-location:javaPreCompileRelease
+> Task :expo-json-utils:bundleLibCompileToJarRelease
+> Task :expo-manifests:compileReleaseAidl NO-SOURCE
+> Task :expo-manifests:generateReleaseBuildConfig
+> Task :expo-manifests:parseReleaseLocalResources
+> Task :expo-manifests:generateReleaseRFile
+> Task :expo-modules-core:compileReleaseKotlin
+> Task :expo-manifests:compileReleaseKotlin
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-manifests/android/src/main/java/expo/modules/manifests/core/BaseLegacyManifest.kt: (10, 86): 'getLegacyID(): String' is deprecated. Prefer scopeKey or projectId depending on use case
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-manifests/android/src/main/java/expo/modules/manifests/core/BaseLegacyManifest.kt: (12, 72): 'getStableLegacyID(): String?' is deprecated. Overrides deprecated member in 'expo.modules.manifests.core.Manifest'. Prefer scopeKey or projectId depending on use case
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-manifests/android/src/main/java/expo/modules/manifests/core/Manifest.kt: (28, 12): 'getRawJson(): JSONObject' is deprecated. Prefer to use specific field getters
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-manifests/android/src/main/java/expo/modules/manifests/core/Manifest.kt: (174, 46): Right operand of elvis operator (?:) is useless if it is null
+> Task :expo-manifests:javaPreCompileRelease
+> Task :expo-manifests:compileReleaseJavaWithJavac
+> Task :expo-manifests:bundleLibRuntimeToJarRelease
+> Task :expo-splash-screen:compileReleaseAidl NO-SOURCE
+> Task :expo-splash-screen:generateReleaseBuildConfig
+> Task :expo-splash-screen:parseReleaseLocalResources
+> Task :expo-splash-screen:generateReleaseRFile
+> Task :expo-splash-screen:javaPreCompileRelease
+> Task :expo-structured-headers:compileReleaseAidl NO-SOURCE
+> Task :expo-structured-headers:generateReleaseBuildConfig
+> Task :expo-structured-headers:parseReleaseLocalResources
+> Task :expo-structured-headers:generateReleaseRFile
+> Task :expo-structured-headers:compileReleaseKotlin
+> Task :expo-structured-headers:javaPreCompileRelease
+> Task :expo-structured-headers:compileReleaseJavaWithJavac
+> Task :expo-structured-headers:bundleLibRuntimeToJarRelease
+> Task :unimodules-app-loader:compileReleaseAidl NO-SOURCE
+> Task :expo-task-manager:compileReleaseAidl NO-SOURCE
+> Task :expo-task-manager:generateReleaseBuildConfig
+> Task :expo-task-manager:parseReleaseLocalResources
+> Task :unimodules-app-loader:parseReleaseLocalResources
+> Task :unimodules-app-loader:generateReleaseRFile
+> Task :expo-task-manager:generateReleaseRFile
+> Task :unimodules-app-loader:generateReleaseBuildConfig
+> Task :unimodules-app-loader:javaPreCompileRelease
+> Task :expo-task-manager:javaPreCompileRelease
+> Task :expo-manifests:bundleLibCompileToJarRelease
+> Task :expo-structured-headers:bundleLibCompileToJarRelease
+> Task :expo-updates-interface:compileReleaseAidl NO-SOURCE
+> Task :expo-updates:compileReleaseAidl NO-SOURCE
+> Task :expo-updates:generateReleaseBuildConfig
+> Task :expo-updates:parseReleaseLocalResources
+> Task :expo-updates-interface:parseReleaseLocalResources
+> Task :expo-updates-interface:generateReleaseRFile
+> Task :expo-updates:generateReleaseRFile
+> Task :expo-updates-interface:generateReleaseBuildConfig
+> Task :expo-updates-interface:compileReleaseKotlin
+> Task :expo-updates-interface:javaPreCompileRelease
+> Task :expo-updates-interface:compileReleaseJavaWithJavac
+> Task :expo-updates-interface:bundleLibCompileToJarRelease
+> Task :expo-updates:javaPreCompileRelease
+> Task :expo-updates-interface:bundleLibRuntimeToJarRelease
+> Task :expo-web-browser:compileReleaseAidl NO-SOURCE
+> Task :expo-web-browser:generateReleaseBuildConfig
+> Task :expo-web-browser:parseReleaseLocalResources
+> Task :expo-web-browser:generateReleaseRFile
+> Task :expo-web-browser:javaPreCompileRelease
+> Task :expo:compileReleaseAidl NO-SOURCE
+> Task :expo:generateReleaseBuildConfig
+> Task :expo:parseReleaseLocalResources
+> Task :stripe_stripe-react-native:compileReleaseKotlin
+> Task :expo:generateReleaseRFile
+> Task :expo:javaPreCompileRelease
+> Task :react-native-gesture-handler:compileReleaseAidl NO-SOURCE
+> Task :react-native-gesture-handler:generateReleaseBuildConfig
+> Task :react-native-gesture-handler:parseReleaseLocalResources
+> Task :react-native-gesture-handler:generateReleaseRFile
+> Task :expo-modules-core:compileReleaseKotlin
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/records/RecordTypeConverter.kt: (38, 13): Name shadowed: value
+> Task :expo-modules-core:compileReleaseJavaWithJavac
+[stderr] Note: Some input files use unchecked or unsafe operations.
+[stderr] Note: Recompile with -Xlint:unchecked for details.
+> Task :expo-modules-core:bundleLibCompileToJarRelease
+> Task :expo-application:compileReleaseKotlin
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-application/android/src/main/java/expo/modules/application/ApplicationModule.kt: (129, 14): 'versionCode: Int' is deprecated. Deprecated in Java
+> Task :expo-application:compileReleaseJavaWithJavac
+> Task :expo-application:bundleLibRuntimeToJarRelease
+> Task :expo-barcode-scanner:compileReleaseKotlin
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerView.kt: (129, 73): 'getter for defaultDisplay: Display!' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (5, 25): 'Camera' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (6, 25): 'Camera' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (6, 32): 'PreviewCallback' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (27, 51): 'PreviewCallback' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (42, 23): 'Camera' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (106, 37): 'getter for parameters: Camera.Parameters!' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (108, 48): 'getter for supportedFocusModes: (Mutable)List<String!>!' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (109, 57): 'Camera' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (109, 64): 'Parameters' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (109, 75): 'FOCUS_MODE_CONTINUOUS_PICTURE: String' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (110, 33): 'setter for focusMode: String!' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (110, 45): 'Camera' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (110, 52): 'Parameters' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (110, 63): 'FOCUS_MODE_CONTINUOUS_PICTURE: String' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (116, 35): 'getter for supportedPictureSizes: (Mutable)List<Camera.Size!>!' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (120, 32): 'setPictureSize(Int, Int): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (120, 66): 'width: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (120, 92): 'height: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (121, 11): 'setter for parameters: Camera.Parameters!' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (122, 11): 'setPreviewTexture(SurfaceTexture!): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (123, 11): 'startPreview(): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (125, 11): 'setPreviewCallback(Camera.PreviewCallback!): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (145, 11): 'stopPreview(): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (147, 11): 'setPreviewCallback(Camera.PreviewCallback!): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (169, 61): 'Camera' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (180, 39): 'Camera' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (195, 29): 'getter for parameters: Camera.Parameters!' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (195, 40): 'getter for previewSize: Camera.Size!' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (196, 28): 'width: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/BarCodeScannerViewFinder.kt: (197, 29): 'height: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (3, 25): 'Camera' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (4, 25): 'Camera' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (4, 32): 'CameraInfo' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (17, 12): 'Camera' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (17, 19): 'getNumberOfCameras(): Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (18, 18): 'constructor CameraInfo()' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (18, 18): 'CameraInfo' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (19, 7): 'Camera' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (19, 14): 'getCameraInfo(Int, Camera.CameraInfo!): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (20, 16): 'facing: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (20, 26): 'CameraInfo' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (20, 37): 'CAMERA_FACING_FRONT: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (24, 23): 'facing: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (24, 33): 'CameraInfo' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (24, 44): 'CAMERA_FACING_BACK: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (32, 23): 'Camera' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (37, 41): 'Camera' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (41, 20): 'Camera' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (41, 27): 'open(Int): Camera!' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (54, 7): 'release(): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (67, 40): 'Camera' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (67, 47): 'Size' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (69, 20): 'width: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (69, 44): 'height: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (71, 30): 'width: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (71, 42): 'height: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (72, 28): 'width: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (72, 41): 'height: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (100, 30): 'facing: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (100, 40): 'CameraInfo' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (100, 51): 'CAMERA_FACING_FRONT: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (101, 40): 'orientation: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (104, 40): 'orientation: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (106, 7): 'setDisplayOrientation(Int): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (107, 33): 'getter for parameters: Camera.Parameters!' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (108, 27): 'setRotation(Int): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (112, 64): 'getter for supportedPreviewSizes: (Mutable)List<Camera.Size!>!' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (113, 38): 'width: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (114, 39): 'height: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (115, 27): 'setPreviewSize(Int, Int): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (117, 9): 'setter for parameters: Camera.Parameters!' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-barcode-scanner/android/src/main/java/expo/modules/barcodescanner/ExpoBarCodeScanner.kt: (130, 51): 'CameraInfo' is deprecated. Deprecated in Java
+> Task :expo-barcode-scanner:compileReleaseJavaWithJavac
+> Task :expo-barcode-scanner:bundleLibRuntimeToJarRelease
+> Task :react-native-gesture-handler:compileReleaseKotlin
+> Task :expo-camera:compileReleaseKotlin
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/CameraModule.kt: (97, 89): 'execute(vararg Void?): AsyncTask<Void?, Void?, Bundle?>!' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/Constants.kt: (110, 32): 'TAG_ISO_SPEED_RATINGS: String' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/ExpoCameraView.kt: (288, 61): Type mismatch: inferred type is Promise? but Promise was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/ExpoCameraView.kt: (289, 50): Type mismatch: inferred type is Promise? but Promise was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/ExpoCameraView.kt: (291, 11): Unsafe use of a nullable receiver of type Promise?
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/ExpoCameraView.kt: (294, 46): Type mismatch: inferred type is Promise? but Promise was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/ExpoCameraView.kt: (294, 89): 'execute(vararg Void?): AsyncTask<Void?, Void?, Bundle?>!' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/ExpoCameraView.kt: (314, 102): 'execute(vararg Void?): AsyncTask<Void?, Void?, BarCodeScannerResult?>!' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/tasks/BarCodeScannerAsyncTask.kt: (3, 19): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/tasks/BarCodeScannerAsyncTask.kt: (15, 5): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/tasks/BarCodeScannerAsyncTask.kt: (15, 5): 'constructor AsyncTask<Params : Any!, Progress : Any!, Result : Any!>()' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/tasks/BarCodeScannerAsyncTask.kt: (16, 60): 'getter for isCancelled: Boolean' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/tasks/BarCodeScannerAsyncTask.kt: (21, 11): 'onPostExecute(Result!): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/tasks/FaceDetectorTask.kt: (27, 9): Parameter 'error' is never used, could be renamed to _
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/tasks/FaceDetectorTask.kt: (31, 9): Parameter 'skippedReason' is never used, could be renamed to _
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/tasks/ResolveTakenPictureAsyncTask.kt: (8, 19): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/tasks/ResolveTakenPictureAsyncTask.kt: (48, 5): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/tasks/ResolveTakenPictureAsyncTask.kt: (48, 5): 'constructor AsyncTask<Params : Any!, Progress : Any!, Result : Any!>()' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/tasks/ResolveTakenPictureAsyncTask.kt: (119, 32): Type mismatch: inferred type is String? but String was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/tasks/ResolveTakenPictureAsyncTask.kt: (150, 30): Type mismatch: inferred type is String? but String was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-camera/android/src/main/java/expo/modules/camera/tasks/ResolveTakenPictureAsyncTask.kt: (186, 11): 'onPostExecute(Result!): Unit' is deprecated. Deprecated in Java
+> Task :expo-camera:compileReleaseJavaWithJavac
+> Task :expo-camera:bundleLibRuntimeToJarRelease
+> Task :expo-constants:compileReleaseKotlin
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-constants/android/src/main/java/expo/modules/constants/ConstantsService.kt: (132, 17): 'versionCode: Int' is deprecated. Deprecated in Java
+> Task :expo-constants:compileReleaseJavaWithJavac
+> Task :expo-constants:bundleLibRuntimeToJarRelease
+> Task :stripe_stripe-react-native:compileReleaseKotlin
+w: /home/expo/workingdir/build/juhuuApp/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/Mappers.kt: (361, 27): Unnecessary safe call on a non-null receiver of type Long
+w: /home/expo/workingdir/build/juhuuApp/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/Mappers.kt: (678, 6): Condition 'setupIntent.created != null' is always 'true'
+w: /home/expo/workingdir/build/juhuuApp/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/PaymentSheetFragment.kt: (73, 41): The corresponding parameter in the supertype 'PaymentSheetResultCallback' is named 'paymentSheetResult'. This may cause problems when calling this function with named arguments.
+w: /home/expo/workingdir/build/juhuuApp/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/PaymentSheetFragment.kt: (82, 9): Condition 'primaryButtonColorHexStr != null' is always 'true'
+w: /home/expo/workingdir/build/juhuuApp/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/PaymentSheetFragment.kt: (96, 79): Unnecessary safe call on a non-null receiver of type Bundle?
+w: /home/expo/workingdir/build/juhuuApp/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/PaymentSheetFragment.kt: (97, 79): Unnecessary safe call on a non-null receiver of type Bundle?
+w: /home/expo/workingdir/build/juhuuApp/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/PaymentSheetFragment.kt: (98, 79): Unnecessary safe call on a non-null receiver of type Bundle?
+w: /home/expo/workingdir/build/juhuuApp/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/StripeSdkModule.kt: (9, 19): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/StripeSdkModule.kt: (381, 46): Parameter 'options' is never used
+w: /home/expo/workingdir/build/juhuuApp/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/StripeSdkModule.kt: (394, 30): The corresponding parameter in the supertype 'ApiResultCallback' is named 'e'. This may cause problems when calling this function with named arguments.
+w: /home/expo/workingdir/build/juhuuApp/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/StripeSdkModule.kt: (407, 9): Variable 'type' is never used
+w: /home/expo/workingdir/build/juhuuApp/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/StripeSdkModule.kt: (455, 30): The corresponding parameter in the supertype 'ApiResultCallback' is named 'e'. This may cause problems when calling this function with named arguments.
+w: /home/expo/workingdir/build/juhuuApp/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/StripeSdkModule.kt: (465, 9): Condition 'activity != null' is always 'true'
+w: /home/expo/workingdir/build/juhuuApp/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/StripeSdkModule.kt: (490, 78): Parameter 'options' is never used
+w: /home/expo/workingdir/build/juhuuApp/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/StripeSdkModule.kt: (530, 5): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/StripeSdkModule.kt: (530, 15): 'execute(Runnable!): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/StripeSdkModule.kt: (542, 5): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/StripeSdkModule.kt: (542, 15): 'execute(Runnable!): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/@stripe/stripe-react-native/android/src/main/java/com/reactnativestripesdk/StripeSdkModule.kt: (553, 80): Parameter 'options' is never used
+> Task :stripe_stripe-react-native:javaPreCompileRelease
+> Task :stripe_stripe-react-native:compileReleaseJavaWithJavac
+> Task :stripe_stripe-react-native:bundleLibRuntimeToJarRelease
+> Task :expo-font:compileReleaseKotlin
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-font/android/src/main/java/expo/modules/font/FontLoaderModule.kt: (55, 38): Type mismatch: inferred type is String? but String was expected
+> Task :expo-font:compileReleaseJavaWithJavac
+> Task :expo-font:bundleLibRuntimeToJarRelease
+> Task :expo-haptics:compileReleaseKotlin
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-haptics/android/src/main/java/expo/modules/haptics/HapticsModule.kt: (50, 17): 'vibrate(LongArray!, Int): Unit' is deprecated. Deprecated in Java
+> Task :expo-haptics:compileReleaseJavaWithJavac
+> Task :expo-haptics:bundleLibRuntimeToJarRelease
+> Task :expo-file-system:compileReleaseKotlin
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-file-system/android/src/main/java/expo/modules/filesystem/FileSystemModule.kt: (8, 19): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-file-system/android/src/main/java/expo/modules/filesystem/FileSystemModule.kt: (419, 27): Type mismatch: inferred type is String? but String was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-file-system/android/src/main/java/expo/modules/filesystem/FileSystemModule.kt: (463, 29): Type mismatch: inferred type is String? but String was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-file-system/android/src/main/java/expo/modules/filesystem/FileSystemModule.kt: (552, 43): Parameter 'options' is never used
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-file-system/android/src/main/java/expo/modules/filesystem/FileSystemModule.kt: (640, 46): Parameter 'options' is never used
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-file-system/android/src/main/java/expo/modules/filesystem/FileSystemModule.kt: (764, 43): Unchecked cast: Any? to Map<String, Any>?
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-file-system/android/src/main/java/expo/modules/filesystem/FileSystemModule.kt: (769, 36): Type mismatch: inferred type is String? but String was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-file-system/android/src/main/java/expo/modules/filesystem/FileSystemModule.kt: (786, 15): Unchecked cast: Any to Map<String, Any>
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-file-system/android/src/main/java/expo/modules/filesystem/FileSystemModule.kt: (918, 49): Unchecked cast: Any? to Map<String, Any>?
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-file-system/android/src/main/java/expo/modules/filesystem/FileSystemModule.kt: (1019, 43): Unchecked cast: Any? to Map<String, Any>?
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-file-system/android/src/main/java/expo/modules/filesystem/FileSystemModule.kt: (1031, 9): 'execute(vararg FileSystemModule.DownloadResumableTaskParams?): AsyncTask<FileSystemModule.DownloadResumableTaskParams?, Void?, Void?>!' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-file-system/android/src/main/java/expo/modules/filesystem/FileSystemModule.kt: (1092, 47): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-file-system/android/src/main/java/expo/modules/filesystem/FileSystemModule.kt: (1092, 47): 'constructor AsyncTask<Params : Any!, Progress : Any!, Result : Any!>()' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-file-system/android/src/main/java/expo/modules/filesystem/FileSystemModule.kt: (1105, 21): Variable 'count' initializer is redundant
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-file-system/android/src/main/java/expo/modules/filesystem/FileSystemModule.kt: (1276, 35): Type mismatch: inferred type is String? but String was expected
+> Task :expo-file-system:compileReleaseJavaWithJavac
+> Task :expo-file-system:bundleLibRuntimeToJarRelease
+> Task :expo-image-loader:compileReleaseKotlin
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-image-loader/android/src/main/java/expo/modules/imageloader/ImageLoaderModule.kt: (6, 19): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-image-loader/android/src/main/java/expo/modules/imageloader/ImageLoaderModule.kt: (11, 42): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-image-loader/android/src/main/java/expo/modules/imageloader/ImageLoaderModule.kt: (63, 7): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-image-loader/android/src/main/java/expo/modules/imageloader/ImageLoaderModule.kt: (63, 17): 'THREAD_POOL_EXECUTOR: Executor!' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-image-loader/android/src/main/java/expo/modules/imageloader/ImageLoaderModule.kt: (88, 22): 'SimpleTarget<Z : Any!>' is deprecated. Deprecated in Java
+> Task :expo-keep-awake:compileReleaseKotlin
+> Task :expo-keep-awake:compileReleaseJavaWithJavac
+> Task :expo-keep-awake:bundleLibRuntimeToJarRelease
+> Task :unimodules-task-manager-interface:compileReleaseKotlin
+> Task :expo-image-loader:compileReleaseJavaWithJavac
+> Task :expo-image-loader:bundleLibRuntimeToJarRelease
+> Task :expo-modules-core:bundleLibRuntimeToJarRelease
+> Task :unimodules-task-manager-interface:compileReleaseJavaWithJavac
+> Task :unimodules-task-manager-interface:bundleLibCompileToJarRelease
+> Task :expo-location:compileReleaseKotlin
+> Task :expo-location:compileReleaseJavaWithJavac
+> Task :expo-location:bundleLibRuntimeToJarRelease
+> Task :unimodules-app-loader:compileReleaseKotlin
+[stderr] Note: /home/expo/workingdir/build/juhuuApp/node_modules/expo-location/android/src/main/java/expo/modules/location/taskConsumers/GeofencingTaskConsumer.java uses unchecked or unsafe operations.
+[stderr] Note: Recompile with -Xlint:unchecked for details.
+> Task :unimodules-app-loader:compileReleaseJavaWithJavac
+> Task :unimodules-app-loader:bundleLibCompileToJarRelease
+> Task :expo-task-manager:compileReleaseKotlin
+> Task :expo-task-manager:compileReleaseJavaWithJavac
+> Task :expo-task-manager:bundleLibRuntimeToJarRelease
+[stderr] Note: Some input files use or override a deprecated API.
+[stderr] Note: Recompile with -Xlint:deprecation for details.
+[stderr] Note: Some input files use unchecked or unsafe operations.
+[stderr] Note: Recompile with -Xlint:unchecked for details.
+> Task :expo-splash-screen:compileReleaseKotlin
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-splash-screen/android/src/main/java/expo/modules/splashscreen/SplashScreenReactActivityLifecycleListener.kt: (17, 50): Parameter 'activityContext' is never used
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-splash-screen/android/src/main/java/expo/modules/splashscreen/SplashScreenViewController.kt: (20, 25): 'constructor Handler()' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-splash-screen/android/src/main/java/expo/modules/splashscreen/SplashScreenViewController.kt: (41, 5): Parameter 'failureCallback' is never used
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-splash-screen/android/src/main/java/expo/modules/splashscreen/singletons/SplashScreenStatusBar.kt: (23, 27): 'replaceSystemWindowInsets(Int, Int, Int, Int): WindowInsets' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-splash-screen/android/src/main/java/expo/modules/splashscreen/singletons/SplashScreenStatusBar.kt: (24, 29): 'getter for systemWindowInsetLeft: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-splash-screen/android/src/main/java/expo/modules/splashscreen/singletons/SplashScreenStatusBar.kt: (26, 29): 'getter for systemWindowInsetRight: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-splash-screen/android/src/main/java/expo/modules/splashscreen/singletons/SplashScreenStatusBar.kt: (27, 29): 'getter for systemWindowInsetBottom: Int' is deprecated. Deprecated in Java
+> Task :expo-splash-screen:compileReleaseJavaWithJavac
+> Task :expo-splash-screen:bundleLibRuntimeToJarRelease
+> Task :expo-web-browser:compileReleaseKotlin
+> Task :expo-web-browser:compileReleaseJavaWithJavac
+> Task :expo-web-browser:bundleLibRuntimeToJarRelease
+> Task :unimodules-app-loader:bundleLibRuntimeToJarRelease
+> Task :unimodules-task-manager-interface:bundleLibRuntimeToJarRelease
+> Task :expo-application:bundleLibCompileToJarRelease
+> Task :app:bundleReleaseJsAndAssets
+info Writing bundle output to:, /home/expo/workingdir/build/juhuuApp/android/app/build/generated/assets/react/release/index.android.bundle
+info Writing sourcemap output to:, /home/expo/workingdir/build/juhuuApp/android/app/build/generated/sourcemaps/react/release/index.android.bundle.map
+info Done writing bundle output
+info Done writing sourcemap output
+> Task :expo-barcode-scanner:bundleLibCompileToJarRelease
+> Task :expo-camera:bundleLibCompileToJarRelease
+> Task :expo-constants:bundleLibCompileToJarRelease
+> Task :expo-file-system:bundleLibCompileToJarRelease
+> Task :expo-font:bundleLibCompileToJarRelease
+> Task :expo-haptics:bundleLibCompileToJarRelease
+> Task :expo-image-loader:bundleLibCompileToJarRelease
+> Task :expo-keep-awake:bundleLibCompileToJarRelease
+> Task :expo-location:bundleLibCompileToJarRelease
+> Task :expo-splash-screen:bundleLibCompileToJarRelease
+> Task :expo-task-manager:bundleLibCompileToJarRelease
+> Task :expo-web-browser:bundleLibCompileToJarRelease
+> Task :react-native-gesture-handler:javaPreCompileRelease
+> Task :react-native-maps:compileReleaseAidl NO-SOURCE
+> Task :react-native-maps:generateReleaseBuildConfig
+> Task :react-native-maps:parseReleaseLocalResources
+> Task :react-native-maps:generateReleaseRFile
+> Task :react-native-maps:javaPreCompileRelease
+> Task :react-native-maps:compileReleaseJavaWithJavac
+> Task :react-native-maps:bundleLibRuntimeToJarRelease
+> Task :react-native-safe-area-context:compileReleaseAidl NO-SOURCE
+> Task :react-native-safe-area-context:generateReleaseBuildConfig
+> Task :react-native-safe-area-context:parseReleaseLocalResources
+[stderr] Note: Some input files use or override a deprecated API.
+[stderr] Note: Recompile with -Xlint:deprecation for details.
+[stderr] Note: Some input files use unchecked or unsafe operations.
+[stderr] Note: Recompile with -Xlint:unchecked for details.
+> Task :react-native-safe-area-context:generateReleaseRFile
+> Task :react-native-safe-area-context:javaPreCompileRelease
+> Task :react-native-safe-area-context:compileReleaseJavaWithJavac
+> Task :react-native-safe-area-context:bundleLibRuntimeToJarRelease
+> Task :react-native-screens:compileReleaseAidl NO-SOURCE
+> Task :react-native-screens:generateReleaseBuildConfig
+> Task :react-native-screens:parseReleaseLocalResources
+> Task :app:bundleReleaseJsAndAssets
+info Copying 29 asset files
+[stderr] Note: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaUtils.java uses or overrides a deprecated API.
+[stderr] Note: Recompile with -Xlint:deprecation for details.
+info Done copying assets
+> Task :app:generatePackageList
+> Task :app:preBuild
+> Task :app:preReleaseBuild
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :react-native-screens:generateReleaseRFile
+> Task :app:mergeReleaseAssets
+> Task :app:copyReleaseBundledJs
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :expo-updates:kaptGenerateStubsReleaseKotlin
+> Task :react-native-gesture-handler:compileReleaseKotlin
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-gesture-handler/android/lib/src/main/java/com/swmansion/gesturehandler/FlingGestureHandler.kt: (30, 17): 'constructor Handler()' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-gesture-handler/android/lib/src/main/java/com/swmansion/gesturehandler/GestureHandler.kt: (676, 11): Name shadowed: size
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-gesture-handler/android/lib/src/main/java/com/swmansion/gesturehandler/LongPressGestureHandler.kt: (44, 17): 'constructor Handler()' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-gesture-handler/android/lib/src/main/java/com/swmansion/gesturehandler/TapGestureHandler.kt: (73, 17): 'constructor Handler()' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-gesture-handler/android/lib/src/main/java/com/swmansion/gesturehandler/TapGestureHandler.kt: (82, 17): 'constructor Handler()' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/RNGestureHandlerModule.kt: (439, 30): 'RNGestureHandlerEnabledRootView' is deprecated. Use <GestureHandlerRootView /> component instead. Check gesture handler installation instructions in documentation for more information.
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/RNGestureHandlerModule.kt: (454, 33): 'resolveRootTagFromReactTag(Int): Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/RNGestureHandlerModule.kt: (479, 19): 'RNGestureHandlerEnabledRootView' is deprecated. Use <GestureHandlerRootView /> component instead. Check gesture handler installation instructions in documentation for more information.
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/RNGestureHandlerModule.kt: (505, 33): 'resolveRootTagFromReactTag(Int): Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/RNGestureHandlerModule.kt: (520, 67): Parameter 'motionEvent' is never used
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/RNGestureHandlerRootHelper.kt: (80, 42): Parameter 'disallowIntercept' is never used
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/RNGestureHandlerRootHelper.kt: (112, 28): Parameter 'viewTag' is never used
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/RNGestureHandlerRootView.kt: (54, 23): 'RNGestureHandlerEnabledRootView' is deprecated. Use <GestureHandlerRootView /> component instead. Check gesture handler installation instructions in documentation for more information.
+> Task :react-native-gesture-handler:compileReleaseJavaWithJavac
+> Task :react-native-gesture-handler:bundleLibRuntimeToJarRelease
+> Task :expo:writeReleaseAarMetadata
+> Task :expo-application:writeReleaseAarMetadata
+> Task :expo-barcode-scanner:writeReleaseAarMetadata
+> Task :expo-camera:writeReleaseAarMetadata
+> Task :expo-constants:writeReleaseAarMetadata
+> Task :expo-file-system:writeReleaseAarMetadata
+> Task :expo-font:writeReleaseAarMetadata
+> Task :expo-haptics:writeReleaseAarMetadata
+> Task :expo-image-loader:writeReleaseAarMetadata
+> Task :expo-json-utils:writeReleaseAarMetadata
+> Task :expo-keep-awake:writeReleaseAarMetadata
+> Task :expo-location:writeReleaseAarMetadata
+> Task :expo-manifests:writeReleaseAarMetadata
+> Task :expo-modules-core:writeReleaseAarMetadata
+> Task :expo-splash-screen:writeReleaseAarMetadata
+> Task :expo-structured-headers:writeReleaseAarMetadata
+> Task :expo-task-manager:writeReleaseAarMetadata
+> Task :expo-updates-interface:writeReleaseAarMetadata
+> Task :expo-web-browser:writeReleaseAarMetadata
+> Task :react-native-async-storage_async-storage:writeReleaseAarMetadata
+> Task :react-native-clipboard_clipboard:writeReleaseAarMetadata
+> Task :react-native-community_datetimepicker:writeReleaseAarMetadata
+> Task :react-native-community_netinfo:writeReleaseAarMetadata
+> Task :react-native-community_slider:writeReleaseAarMetadata
+> Task :react-native-gesture-handler:writeReleaseAarMetadata
+> Task :react-native-maps:writeReleaseAarMetadata
+> Task :react-native-safe-area-context:writeReleaseAarMetadata
+> Task :stripe_stripe-react-native:writeReleaseAarMetadata
+> Task :unimodules-app-loader:writeReleaseAarMetadata
+> Task :unimodules-task-manager-interface:writeReleaseAarMetadata
+> Task :react-native-async-storage_async-storage:bundleLibCompileToJarRelease
+> Task :react-native-clipboard_clipboard:bundleLibCompileToJarRelease
+> Task :react-native-community_datetimepicker:bundleLibCompileToJarRelease
+> Task :react-native-community_netinfo:bundleLibCompileToJarRelease
+> Task :react-native-community_slider:bundleLibCompileToJarRelease
+> Task :react-native-gesture-handler:bundleLibCompileToJarRelease
+> Task :react-native-maps:bundleLibCompileToJarRelease
+> Task :react-native-safe-area-context:bundleLibCompileToJarRelease
+> Task :stripe_stripe-react-native:bundleLibCompileToJarRelease
+> Task :expo:processReleaseJavaRes
+NO-SOURCE
+> Task :expo-application:processReleaseJavaRes NO-SOURCE
+> Task :expo-application:bundleLibResRelease
+> Task :expo-barcode-scanner:processReleaseJavaRes NO-SOURCE
+> Task :expo-barcode-scanner:bundleLibResRelease
+> Task :expo-camera:processReleaseJavaRes NO-SOURCE
+> Task :expo-camera:bundleLibResRelease
+> Task :expo-constants:cleanupReleaseExpoConfig
+> Task :expo-constants:processReleaseJavaRes NO-SOURCE
+> Task :expo-constants:bundleLibResRelease
+> Task :expo-file-system:processReleaseJavaRes NO-SOURCE
+> Task :expo-file-system:bundleLibResRelease
+> Task :expo-updates:writeReleaseAarMetadata
+> Task :expo-updates:createReleaseExpoManifest
+                    Welcome to Metro!
+              Fast - Scalable - Integrated
+> Task :expo-updates:kaptReleaseKotlin
+warning: Current JDK version 1.8.0_342-8u342-b07-0ubuntu1~18.04-b07 has a bug (https://bugs.openjdk.java.net/browse/JDK-8007720) that prevents Room from being incremental. Consider using JDK 11+ or the embedded JDK shipped with Android Studio 3.5+.[WARN] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: androidx.room.RoomProcessor (DYNAMIC).
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :app:mergeReleaseResources
+> Task :expo-font:processReleaseJavaRes NO-SOURCE
+> Task :expo-font:bundleLibResRelease
+> Task :expo-haptics:processReleaseJavaRes NO-SOURCE
+> Task :expo-haptics:bundleLibResRelease
+> Task :expo-image-loader:processReleaseJavaRes NO-SOURCE
+> Task :expo-image-loader:bundleLibResRelease
+> Task :expo-json-utils:processReleaseJavaRes NO-SOURCE
+> Task :expo-json-utils:bundleLibResRelease
+> Task :expo-keep-awake:processReleaseJavaRes NO-SOURCE
+> Task :expo-keep-awake:bundleLibResRelease
+> Task :expo-location:processReleaseJavaRes NO-SOURCE
+> Task :expo-location:bundleLibResRelease NO-SOURCE
+> Task :expo-manifests:processReleaseJavaRes NO-SOURCE
+> Task :expo-manifests:bundleLibResRelease
+> Task :expo-modules-core:processReleaseJavaRes NO-SOURCE
+> Task :expo-modules-core:bundleLibResRelease
+> Task :expo-splash-screen:processReleaseJavaRes NO-SOURCE
+> Task :expo-splash-screen:bundleLibResRelease
+> Task :expo-structured-headers:processReleaseJavaRes NO-SOURCE
+> Task :expo-structured-headers:bundleLibResRelease NO-SOURCE
+> Task :expo-task-manager:processReleaseJavaRes NO-SOURCE
+> Task :expo-task-manager:bundleLibResRelease NO-SOURCE
+> Task :expo-updates-interface:processReleaseJavaRes NO-SOURCE
+> Task :expo-updates-interface:bundleLibResRelease NO-SOURCE
+> Task :expo-web-browser:processReleaseJavaRes NO-SOURCE
+> Task :expo-web-browser:bundleLibResRelease NO-SOURCE
+> Task :react-native-async-storage_async-storage:processReleaseJavaRes NO-SOURCE
+> Task :react-native-async-storage_async-storage:bundleLibResRelease NO-SOURCE
+> Task :react-native-clipboard_clipboard:processReleaseJavaRes NO-SOURCE
+> Task :react-native-clipboard_clipboard:bundleLibResRelease NO-SOURCE
+> Task :react-native-community_datetimepicker:processReleaseJavaRes NO-SOURCE
+> Task :react-native-community_datetimepicker:bundleLibResRelease NO-SOURCE
+> Task :react-native-community_netinfo:processReleaseJavaRes NO-SOURCE
+> Task :react-native-community_netinfo:bundleLibResRelease NO-SOURCE
+> Task :react-native-community_slider:processReleaseJavaRes NO-SOURCE
+> Task :react-native-community_slider:bundleLibResRelease NO-SOURCE
+> Task :react-native-gesture-handler:processReleaseJavaRes NO-SOURCE
+> Task :react-native-gesture-handler:bundleLibResRelease
+> Task :react-native-maps:processReleaseJavaRes NO-SOURCE
+> Task :react-native-maps:bundleLibResRelease NO-SOURCE
+> Task :react-native-safe-area-context:processReleaseJavaRes NO-SOURCE
+> Task :react-native-safe-area-context:bundleLibResRelease NO-SOURCE
+> Task :stripe_stripe-react-native:processReleaseJavaRes NO-SOURCE
+> Task :stripe_stripe-react-native:bundleLibResRelease
+> Task :unimodules-app-loader:processReleaseJavaRes NO-SOURCE
+> Task :unimodules-app-loader:bundleLibResRelease NO-SOURCE
+> Task :unimodules-task-manager-interface:processReleaseJavaRes NO-SOURCE
+> Task :unimodules-task-manager-interface:bundleLibResRelease NO-SOURCE
+> Task :expo:mergeReleaseJniLibFolders
+> Task :expo:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo:copyReleaseJniLibsProjectOnly
+> Task :expo-application:mergeReleaseJniLibFolders
+> Task :expo-application:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-application:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-application:copyReleaseJniLibsProjectOnly
+> Task :expo-barcode-scanner:mergeReleaseJniLibFolders
+> Task :expo-barcode-scanner:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-barcode-scanner:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-barcode-scanner:copyReleaseJniLibsProjectOnly
+> Task :expo-camera:mergeReleaseJniLibFolders
+> Task :expo-camera:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-camera:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-camera:copyReleaseJniLibsProjectOnly
+> Task :expo-constants:mergeReleaseJniLibFolders
+> Task :expo-constants:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-constants:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-constants:copyReleaseJniLibsProjectOnly
+> Task :expo-file-system:mergeReleaseJniLibFolders
+> Task :expo-file-system:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-file-system:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-file-system:copyReleaseJniLibsProjectOnly
+> Task :expo-font:mergeReleaseJniLibFolders
+> Task :expo-font:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-font:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-font:copyReleaseJniLibsProjectOnly
+> Task :expo-haptics:mergeReleaseJniLibFolders
+> Task :expo-haptics:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-haptics:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-haptics:copyReleaseJniLibsProjectOnly
+> Task :expo-image-loader:mergeReleaseJniLibFolders
+> Task :expo-image-loader:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-image-loader:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-image-loader:copyReleaseJniLibsProjectOnly
+> Task :expo-json-utils:mergeReleaseJniLibFolders
+> Task :expo-json-utils:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-json-utils:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-json-utils:copyReleaseJniLibsProjectOnly
+> Task :expo-keep-awake:mergeReleaseJniLibFolders
+> Task :expo-keep-awake:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-keep-awake:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-keep-awake:copyReleaseJniLibsProjectOnly
+> Task :expo-location:mergeReleaseJniLibFolders
+> Task :expo-location:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-location:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-location:copyReleaseJniLibsProjectOnly
+> Task :expo-manifests:mergeReleaseJniLibFolders
+> Task :expo-manifests:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-manifests:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-manifests:copyReleaseJniLibsProjectOnly
+> Task :expo-modules-core:mergeReleaseJniLibFolders
+> Task :expo-modules-core:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-modules-core:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-modules-core:copyReleaseJniLibsProjectOnly
+> Task :expo-splash-screen:mergeReleaseJniLibFolders
+> Task :expo-splash-screen:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-splash-screen:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-splash-screen:copyReleaseJniLibsProjectOnly
+> Task :expo-structured-headers:mergeReleaseJniLibFolders
+> Task :expo-structured-headers:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-structured-headers:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-structured-headers:copyReleaseJniLibsProjectOnly
+> Task :expo-task-manager:mergeReleaseJniLibFolders
+> Task :expo-task-manager:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-task-manager:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-task-manager:copyReleaseJniLibsProjectOnly
+> Task :expo-updates-interface:mergeReleaseJniLibFolders
+> Task :expo-updates-interface:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-updates-interface:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-updates-interface:copyReleaseJniLibsProjectOnly
+> Task :expo-web-browser:mergeReleaseJniLibFolders
+> Task :expo-web-browser:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-web-browser:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-web-browser:copyReleaseJniLibsProjectOnly
+> Task :react-native-async-storage_async-storage:mergeReleaseJniLibFolders
+> Task :react-native-async-storage_async-storage:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-async-storage_async-storage:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-async-storage_async-storage:copyReleaseJniLibsProjectOnly
+> Task :react-native-clipboard_clipboard:mergeReleaseJniLibFolders
+> Task :react-native-clipboard_clipboard:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-clipboard_clipboard:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-clipboard_clipboard:copyReleaseJniLibsProjectOnly
+> Task :react-native-community_datetimepicker:mergeReleaseJniLibFolders
+> Task :react-native-community_datetimepicker:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-community_datetimepicker:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-community_datetimepicker:copyReleaseJniLibsProjectOnly
+> Task :react-native-community_netinfo:mergeReleaseJniLibFolders
+> Task :react-native-community_netinfo:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-community_netinfo:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-community_netinfo:copyReleaseJniLibsProjectOnly
+> Task :react-native-community_slider:mergeReleaseJniLibFolders
+> Task :react-native-community_slider:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-community_slider:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-community_slider:copyReleaseJniLibsProjectOnly
+> Task :react-native-gesture-handler:mergeReleaseJniLibFolders
+> Task :react-native-gesture-handler:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-gesture-handler:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-gesture-handler:copyReleaseJniLibsProjectOnly
+> Task :react-native-maps:mergeReleaseJniLibFolders
+> Task :react-native-maps:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-maps:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-maps:copyReleaseJniLibsProjectOnly
+> Task :react-native-safe-area-context:mergeReleaseJniLibFolders
+> Task :react-native-safe-area-context:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-safe-area-context:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-safe-area-context:copyReleaseJniLibsProjectOnly
+> Task :stripe_stripe-react-native:mergeReleaseJniLibFolders
+> Task :stripe_stripe-react-native:mergeReleaseNativeLibs NO-SOURCE
+> Task :stripe_stripe-react-native:stripReleaseDebugSymbols NO-SOURCE
+> Task :stripe_stripe-react-native:copyReleaseJniLibsProjectOnly
+> Task :unimodules-app-loader:mergeReleaseJniLibFolders
+> Task :unimodules-app-loader:mergeReleaseNativeLibs NO-SOURCE
+> Task :unimodules-app-loader:stripReleaseDebugSymbols NO-SOURCE
+> Task :unimodules-app-loader:copyReleaseJniLibsProjectOnly
+> Task :unimodules-task-manager-interface:mergeReleaseJniLibFolders
+> Task :unimodules-task-manager-interface:mergeReleaseNativeLibs NO-SOURCE
+> Task :unimodules-task-manager-interface:stripReleaseDebugSymbols NO-SOURCE
+> Task :unimodules-task-manager-interface:copyReleaseJniLibsProjectOnly
+> Task :app:processReleaseMainManifest
+/home/expo/workingdir/build/juhuuApp/android/app/src/main/AndroidManifest.xml:25:9-34:20 Warning:
+	provider#expo.modules.filesystem.FileSystemFileProvider@android:authorities was tagged at AndroidManifest.xml:25 to replace other declarations but no other declaration present
+> Task :app:processReleaseManifest
+> Task :app:processApplicationManifestReleaseForBundle
+> Task :expo-updates:createReleaseExpoManifest
+transform[stderr]: Browserslist: caniuse-lite is outdated. Please run:
+transform[stderr]:   npx browserslist@latest --update-db
+transform[stderr]:   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+> Task :app:bundleReleaseResources
+> Task :expo-updates:createReleaseExpoManifest
+transform[stderr]: Browserslist: caniuse-lite is outdated. Please run:
+transform[stderr]:   npx browserslist@latest --update-db
+transform[stderr]:   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+transform[stderr]: Browserslist: caniuse-lite is outdated. Please run:
+transform[stderr]:   npx browserslist@latest --update-db
+transform[stderr]:   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+> Task :react-native-screens:compileReleaseKotlin
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :app:javaPreCompileRelease
+> Task :app:processReleaseManifestForPackage
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:desugarReleaseFileDependencies
+> Task :react-native-screens:compileReleaseKotlin
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/Screen.kt: (75, 26): 'constructor GuardedRunnable(ReactContext!)' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt: (65, 28): 'setter for targetElevation: Float' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt: (150, 28): 'setter for targetElevation: Float' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackHeaderConfig.kt: (163, 56): 'getter for systemWindowInsetTop: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackHeaderConfig.kt: (231, 29): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt: (56, 22): 'constructor GuardedRunnable(ReactContext!)' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt: (84, 57): 'getter for systemUiVisibility: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt: (86, 53): 'SYSTEM_UI_FLAG_LIGHT_STATUS_BAR: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt: (88, 54): 'SYSTEM_UI_FLAG_LIGHT_STATUS_BAR: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt: (90, 27): 'setter for systemUiVisibility: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt: (106, 22): 'constructor GuardedRunnable(ReactContext!)' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt: (115, 43): 'replaceSystemWindowInsets(Int, Int, Int, Int): WindowInsets' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt: (116, 47): 'getter for systemWindowInsetLeft: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt: (118, 47): 'getter for systemWindowInsetRight: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt: (119, 47): 'getter for systemWindowInsetBottom: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt: (138, 69): 'FLAG_FULLSCREEN: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt: (139, 71): 'FLAG_FORCE_NOT_FULLSCREEN: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt: (141, 69): 'FLAG_FORCE_NOT_FULLSCREEN: Int' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt: (142, 71): 'FLAG_FULLSCREEN: Int' is deprecated. Deprecated in Java
+> Task :react-native-screens:javaPreCompileRelease
+> Task :app:mergeExtDexRelease
+> Task :expo-updates:compileReleaseKotlin
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesController.kt: (5, 19): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesController.kt: (117, 20): This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesController.kt: (299, 14): This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesController.kt: (363, 5): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesController.kt: (363, 15): 'execute(Runnable!): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesDevLauncherController.kt: (84, 66): 'getRawJson(): JSONObject' is deprecated. Prefer to use specific field getters
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesDevLauncherController.kt: (120, 31): 'getRawJson(): JSONObject' is deprecated. Prefer to use specific field getters
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesModule.kt: (4, 19): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesModule.kt: (151, 78): 'toString(): String' is deprecated. Prefer to use specific field getters
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesModule.kt: (162, 78): 'toString(): String' is deprecated. Prefer to use specific field getters
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesModule.kt: (190, 7): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesModule.kt: (190, 17): 'execute(Runnable!): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesUtils.kt: (6, 19): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesUtils.kt: (139, 7): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesUtils.kt: (139, 17): 'execute(Runnable!): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesUtils.kt: (240, 7): Type mismatch: inferred type is Date? but Date was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesUtils.kt: (240, 23): Type mismatch: inferred type is String? but String was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesUtils.kt: (247, 7): Type mismatch: inferred type is Date? but Date was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesUtils.kt: (247, 23): Type mismatch: inferred type is String? but String was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesUtils.kt: (252, 7): Type mismatch: inferred type is Date? but Date was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/UpdatesUtils.kt: (252, 23): Type mismatch: inferred type is String? but String was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/db/Converters.kt: (56, 30): Type mismatch: inferred type is ByteArray? but ByteArray was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/db/Converters.kt: (98, 21): Parameter 'value' is never used
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/db/Converters.kt: (103, 21): Parameter 'hashType' is never used
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/db/DatabaseHolder.kt: (13, 20): This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/db/DatabaseHolder.kt: (25, 14): This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/db/DatabaseIntegrityCheck.kt: (38, 39): Type mismatch: inferred type is String? but String was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/db/Reaper.kt: (44, 41): Type mismatch: inferred type is String? but String was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/db/Reaper.kt: (62, 41): Type mismatch: inferred type is String? but String was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/launcher/DatabaseLauncher.kt: (128, 44): Type mismatch: inferred type is String? but String was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/launcher/DatabaseLauncher.kt: (176, 57): Type mismatch: inferred type is String? but String was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/launcher/NoDatabaseLauncher.kt: (4, 19): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/launcher/NoDatabaseLauncher.kt: (78, 7): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/launcher/NoDatabaseLauncher.kt: (78, 17): 'execute(Runnable!): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/loader/FileDownloader.kt: (134, 27): 'constructor MultipartStream(InputStream!, ByteArray!)' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/loader/FileDownloader.kt: (467, 40): Type mismatch: inferred type is String? but String was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/loader/Loader.kt: (217, 15): Type mismatch: inferred type is String? but String was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/loader/Loader.kt: (254, 7): 'when' is exhaustive so 'else' is redundant here
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/loader/Loader.kt: (275, 65): Type mismatch: inferred type is String? but String was expected
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/loader/LoaderTask.kt: (4, 19): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/loader/LoaderTask.kt: (275, 5): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/loader/LoaderTask.kt: (275, 15): 'execute(Runnable!): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/loader/LoaderTask.kt: (357, 5): 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/loader/LoaderTask.kt: (357, 15): 'execute(Runnable!): Unit' is deprecated. Deprecated in Java
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/manifest/LegacyUpdateManifest.kt: (35, 53): 'getRawJson(): JSONObject' is deprecated. Prefer to use specific field getters
+w: /home/expo/workingdir/build/juhuuApp/node_modules/expo-updates/android/src/main/java/expo/modules/updates/manifest/NewUpdateManifest.kt: (49, 50): 'getRawJson(): JSONObject' is deprecated. Prefer to use specific field getters
+> Task :expo-updates:compileReleaseJavaWithJavac
+> Task :expo-updates:bundleLibRuntimeToJarRelease
+> Task :expo-updates:bundleLibCompileToJarRelease
+> Task :react-native-screens:compileReleaseJavaWithJavac
+> Task :react-native-screens:bundleLibRuntimeToJarRelease
+> Task :react-native-screens:writeReleaseAarMetadata
+> Task :react-native-screens:bundleLibCompileToJarRelease
+> Task :expo-updates:processReleaseJavaRes NO-SOURCE
+> Task :expo-updates:bundleLibResRelease
+> Task :react-native-screens:processReleaseJavaRes NO-SOURCE
+> Task :react-native-screens:bundleLibResRelease
+> Task :expo-updates:mergeReleaseJniLibFolders
+> Task :expo-updates:mergeReleaseNativeLibs NO-SOURCE
+> Task :expo-updates:stripReleaseDebugSymbols NO-SOURCE
+> Task :expo-updates:copyReleaseJniLibsProjectOnly
+> Task :react-native-screens:mergeReleaseJniLibFolders
+> Task :react-native-screens:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-screens:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-screens:copyReleaseJniLibsProjectOnly
+> Task :expo:compileReleaseKotlin
+> Task :expo:compileReleaseJavaWithJavac
+> Task :expo:bundleLibRuntimeToJarRelease
+> Task :expo:bundleLibCompileToJarRelease
+> Task :expo:bundleLibResRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseAarMetadata
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:collectReleaseDependencies
+> Task :app:configureReleaseDependencies
+> Task :app:parseReleaseIntegrityConfig
+> Task :app:validateSigningRelease
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libc++_shared.so, libfb.so, libfbjni.so, libfolly_futures.so, libfolly_json.so, libgifimage.so, libglog.so, libglog_init.so, libhermes-executor-common-debug.so, libhermes-executor-common-release.so, libhermes-executor-debug.so, libhermes-executor-release.so, libhermes-inspector.so, libimagepipeline.so, libjsc.so, libjscexecutor.so, libjsijniprofiler.so, libjsinspector.so, libnative-filters.so, libnative-imagetranscoder.so, libreact_codegen_reactandroidspec.so, libreact_nativemodule_core.so, libreactnativeblob.so, libreactnativejni.so, libreactnativeutilsjni.so, libreactperfloggerjni.so, libstatic-webp.so, libturbomodulejsijni.so, libyoga.so.
+> Task :expo-updates:copyReleaseExpoManifest
+> Task :app:processReleaseResources
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:dexBuilderRelease
+> Task :app:mergeDexRelease
+> Task :app:buildReleasePreBundle
+> Task :app:packageReleaseBundle
+> Task :app:signReleaseBundle
+> Task :app:bundleRelease
+w: Detected multiple Kotlin daemon sessions at build/kotlin/sessions
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.9/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 5m 35s
+633 actionable tasks: 633 executed
